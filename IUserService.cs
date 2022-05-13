@@ -1,10 +1,10 @@
-﻿using Sabio.Models;
-using Sabio.Models.Domain;
-using Sabio.Models.Requests.InterrogasUser;
+﻿using Int.Models;
+using Int.Models.Domain;
+using Int.Models.Requests.InterrogasUser;
 using System.Data;
 using System.Threading.Tasks;
 
-namespace Sabio.Services
+namespace Int.Services
 {
     public interface IUserService
     {
