@@ -2,16 +2,16 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Sabio.Models;
-using Sabio.Models.Domain;
-using Sabio.Models.Requests.InterrogasUser;
-using Sabio.Services;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
+using Int.Models;
+using Int.Models.Domain;
+using Int.Models.Requests.InterrogasUser;
+using Int.Services;
+using Int.Web.Controllers;
+using Int.Web.Models.Responses;
 using System;
 using System.Threading.Tasks;
 
-namespace Sabio.Web.Api.Controllers
+namespace Int.Web.Api.Controllers
 {
     [Route("api/users")]
     [ApiController]
